@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-46151480","path":"/zh/Application/Types/MastApp/","title":"装机必备","lang":"zh-CN","frontmatter":{"order":2,"title":"装机必备"},"headers":[],"git":{},"readingTime":{"minutes":0.06,"words":19},"filePathRelative":"zh/Application/Types/MastApp/README.md"}');export{t as data};

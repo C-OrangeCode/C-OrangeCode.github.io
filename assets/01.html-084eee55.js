@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-ad4b2798","path":"/zh/Server/Pages/Python/01.html","title":"前言","lang":"zh-CN","frontmatter":{"order":1,"title":"前言"},"headers":[],"git":{},"readingTime":{"minutes":0.39,"words":118},"filePathRelative":"zh/Server/Pages/Python/01.md"}');export{e as data};

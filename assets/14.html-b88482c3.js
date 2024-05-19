@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-5e164198","path":"/zh/Server/Pages/C/Novice/14.html","title":"变量内存分析","lang":"zh-CN","frontmatter":{"order":14,"title":"变量内存分析"},"headers":[{"level":2,"title":"变量内存分析","slug":"变量内存分析","link":"#变量内存分析","children":[]}],"git":{},"readingTime":{"minutes":2.03,"words":609},"filePathRelative":"zh/Server/Pages/C/Novice/14.md"}');export{e as data};

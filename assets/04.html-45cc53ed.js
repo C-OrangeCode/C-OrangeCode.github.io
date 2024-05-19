@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-29300657","path":"/zh/Server/Pages/C/Novice/04.html","title":"跳转","lang":"zh-CN","frontmatter":{"order":4,"title":"跳转"},"headers":[{"level":2,"title":"四大跳转","slug":"四大跳转","link":"#四大跳转","children":[]}],"git":{},"readingTime":{"minutes":1.3,"words":390},"filePathRelative":"zh/Server/Pages/C/Novice/04.md"}');export{e as data};

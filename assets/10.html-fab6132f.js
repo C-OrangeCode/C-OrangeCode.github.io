@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-5742df1c","path":"/zh/Server/Pages/C/Novice/10.html","title":"进制","lang":"zh-CN","frontmatter":{"order":10,"title":"进制"},"headers":[{"level":2,"title":"进制基本概念","slug":"进制基本概念","link":"#进制基本概念","children":[]}],"git":{},"readingTime":{"minutes":0.73,"words":220},"filePathRelative":"zh/Server/Pages/C/Novice/10.md"}');export{e as data};

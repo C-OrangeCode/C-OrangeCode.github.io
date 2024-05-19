@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-39647258","path":"/zh/PMTools/Pages/RPMTools/Pages/apt/","title":"apt","lang":"zh-CN","frontmatter":{},"headers":[],"git":{},"readingTime":{"minutes":0,"words":1},"filePathRelative":"zh/PMTools/Pages/RPMTools/Pages/apt/README.md"}');export{a as data};

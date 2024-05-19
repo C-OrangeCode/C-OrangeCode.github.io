@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-2c99b795","path":"/zh/Server/Pages/C/Novice/06.html","title":"图形打印","lang":"zh-CN","frontmatter":{"order":6,"title":"图形打印"},"headers":[{"level":2,"title":"C语言图形打印","slug":"c语言图形打印","link":"#c语言图形打印","children":[]}],"git":{},"readingTime":{"minutes":1.28,"words":383},"filePathRelative":"zh/Server/Pages/C/Novice/06.md"}');export{e as data};

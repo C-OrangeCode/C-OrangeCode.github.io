@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-740f7d7a","path":"/zh/Client/Pages/Sass/","title":"Sass","lang":"en-US","frontmatter":{"title":"Sass","article":false,"feed":false,"sitemap":false},"headers":[],"git":{},"readingTime":{"minutes":0,"words":1},"filePathRelative":null}');export{e as data};

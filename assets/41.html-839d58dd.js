@@ -1,0 +1,23 @@
+import{_ as n}from"./plugin-vue_export-helper-c27b6911.js";import{o as s,c as a,e as t}from"./app-a1fbcbb6.js";const e={},p=t(`<h2 id="malloc-函数" tabindex="-1"><a class="header-anchor" href="#malloc-函数" aria-hidden="true">#</a> malloc 函数</h2><table><thead><tr><th>函数声明</th><th>void * malloc(size_t _Size);</th></tr></thead><tbody><tr><td>所在文件</td><td>stdlib.h</td></tr><tr><td>函数功能</td><td>申请堆内存空间并返回,所申请的空间并未初始化。</td></tr><tr><td>常见的初始化方法是</td><td>memset 字节初始化。</td></tr><tr><td>参数及返回解析</td><td></td></tr><tr><td>参数</td><td>size_t _size 表示要申请的字符数</td></tr><tr><td>返回值</td><td>void * 成功返回非空指针指向申请的空间 ，失败返回 NULL</td></tr></tbody></table><div class="language-c line-numbers-mode" data-ext="c"><pre class="language-c"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdlib.h&gt;</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;string.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">/*
+     * malloc
+     * 第一个参数: 需要申请多少个字节空间
+     * 返回值类型: void *
+     */</span>
+    <span class="token keyword">int</span> <span class="token operator">*</span>p <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">int</span> <span class="token operator">*</span><span class="token punctuation">)</span><span class="token function">malloc</span><span class="token punctuation">(</span><span class="token keyword">sizeof</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">&quot;p = %i\\n&quot;</span><span class="token punctuation">,</span> <span class="token operator">*</span>p<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 保存垃圾数据</span>
+    <span class="token comment">/*
+     * 第一个参数: 需要初始化的内存地址
+     * 第二个初始: 需要初始化的值
+     * 第三个参数: 需要初始化对少个字节
+     */</span>
+    <span class="token function">memset</span><span class="token punctuation">(</span>p<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token keyword">sizeof</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 对申请的内存空间进行初始化</span>
+    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">&quot;p = %i\\n&quot;</span><span class="token punctuation">,</span> <span class="token operator">*</span>p<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 初始化为0</span>
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="" tabindex="-1"><a class="header-anchor" href="#" aria-hidden="true">#</a></h2>`,4),c=[p];function o(i,l){return s(),a("div",null,c)}const u=n(e,[["render",o],["__file","41.html.vue"]]);export{u as default};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-3cd35a76","path":"/zh/Server/Pages/C/Advanced/13.html","title":"字符串常用方法","lang":"zh-CN","frontmatter":{"order":13,"title":"字符串常用方法"},"headers":[{"level":2,"title":"字符串常用方法","slug":"字符串常用方法","link":"#字符串常用方法","children":[]}],"git":{},"readingTime":{"minutes":3.97,"words":1191},"filePathRelative":"zh/Server/Pages/C/Advanced/13.md"}');export{e as data};

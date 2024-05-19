@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-035fbc60","path":"/zh/Application/Types/BuildDesign/","title":"建筑设计","lang":"zh-CN","frontmatter":{"order":6,"title":"建筑设计"},"headers":[],"git":{},"readingTime":{"minutes":0.06,"words":19},"filePathRelative":"zh/Application/Types/BuildDesign/README.md"}');export{e as data};

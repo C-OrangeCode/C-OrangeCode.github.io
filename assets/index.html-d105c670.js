@@ -1,0 +1,1 @@
+import{_ as a}from"./plugin-vue_export-helper-c27b6911.js";import{o as r,c as t,a as e,b as n}from"./app-a1fbcbb6.js";const o={},c=e("h1",{id:"yarn",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#yarn","aria-hidden":"true"},"#"),n(" yarn")],-1),s=[c];function _(d,i){return r(),t("div",null,s)}const f=a(o,[["render",_],["__file","index.html.vue"]]);export{f as default};

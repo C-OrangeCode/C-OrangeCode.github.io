@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-74126bf0","path":"/zh/Application/Types/GCMake/","title":"工程制造","lang":"zh-CN","frontmatter":{"order":7,"title":"工程制造"},"headers":[],"git":{},"readingTime":{"minutes":0.06,"words":19},"filePathRelative":"zh/Application/Types/GCMake/README.md"}');export{e as data};

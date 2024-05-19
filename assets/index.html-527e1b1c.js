@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-c1dae38c","path":"/zh/Application/Types/MediaMake/","title":"多媒体制作","lang":"zh-CN","frontmatter":{"order":9,"title":"多媒体制作"},"headers":[],"git":{},"readingTime":{"minutes":0.07,"words":20},"filePathRelative":"zh/Application/Types/MediaMake/README.md"}');export{e as data};

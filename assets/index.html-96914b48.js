@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-6d1a1bcf","path":"/zh/System/Pages/Windows/","title":"Windows系统","lang":"zh-CN","frontmatter":{},"headers":[],"git":{},"readingTime":{"minutes":0.01,"words":3},"filePathRelative":"zh/System/Pages/Windows/Readme.md"}');export{e as data};

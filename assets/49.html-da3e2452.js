@@ -1,0 +1,25 @@
+import{_ as n}from"./plugin-vue_export-helper-c27b6911.js";import{o as s,c as a,e as t}from"./app-a1fbcbb6.js";const e={},p=t(`<h2 id="文件基本概念" tabindex="-1"><a class="header-anchor" href="#文件基本概念" aria-hidden="true">#</a> 文件基本概念</h2><ul><li>文件流:</li></ul><ul><li>C 语言把文件看作是一个字符的序列，即文件是由一个一个字符组成的字符流，因此 c 语言将文件也称之为文件流。</li></ul><ul><li>文件分类</li></ul><ul><li><p>文本文件</p></li><li><p>以 ASCII 码格式存放，<strong>一个字节存放一个字符</strong>。<code> 文本文件的每一个字节存放一个 ASCII 码，代表一个字符</code>。这便于对字符的逐个处理，但占用存储空间<br> 较多，而且要花费时间转换。</p></li><li><p>.c 文件就是以文本文件形式存放的</p></li><li><p>二进制文件</p></li><li><p>以补码格式存放。二进制文件是把数据以二进制数的格式存放在文件中的，其占用存储空间较少。<code>数据按其内存中的存储形式原样存放</code></p></li><li><p>.exe 文件就是以二进制文件形式存放的</p></li></ul><hr><ul><li><strong>文本文件和二进制文件示例</strong></li></ul><ul><li>下列代码暂时不要求看懂, 主要理解什么是文本文件什么是二进制文件</li></ul><div class="language-c line-numbers-mode" data-ext="c"><pre class="language-c"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">/*
+     * 以文本形式存储
+     * 会将每个字符先转换为对应的ASCII,
+     * 然后再将ASCII码的二进制存储到计算机中
+     */</span>
+    <span class="token keyword">int</span> num <span class="token operator">=</span> <span class="token number">666</span><span class="token punctuation">;</span>
+    FILE <span class="token operator">*</span>fa <span class="token operator">=</span> <span class="token function">fopen</span><span class="token punctuation">(</span><span class="token string">&quot;ascii.txt&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;w&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">fprintf</span><span class="token punctuation">(</span>fa<span class="token punctuation">,</span> <span class="token string">&quot;%d&quot;</span><span class="token punctuation">,</span> num<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">fclose</span><span class="token punctuation">(</span>fa<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">/*
+     * 以二进制形式存储
+     * 会将666的二进制直接存储到文件中
+     */</span>
+    FILE <span class="token operator">*</span>fb <span class="token operator">=</span> <span class="token function">fopen</span><span class="token punctuation">(</span><span class="token string">&quot;bin.txt&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;w&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">fwrite</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>num<span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">,</span> fb<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">fclose</span><span class="token punctuation">(</span>fb<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul><li><p>内存示意图<br><img src="https://img-blog.csdnimg.cn/img_convert/a989b57283bdbcd82ae8bfb0c6fb4b8d.png" alt="" loading="lazy"></p></li><li><p>通过文本工具打开示意图<br><img src="https://img-blog.csdnimg.cn/img_convert/61ccbc31fd2ed870fde8de4598d52ee3.png" alt="" loading="lazy"></p></li></ul><blockquote><ul><li>文本工具默认会按照 ASCII 码逐个直接解码文件, 由于文本文件存储的就是 ASCII 码, 所以可以正常解析显示, 由于二进制文件存储的不是 ASCII 码, 所以解析出来之后是乱码</li></ul></blockquote><h2 id="" tabindex="-1"><a class="header-anchor" href="#" aria-hidden="true">#</a></h2>`,12),i=[p];function l(c,o){return s(),a("div",null,i)}const d=n(e,[["render",l],["__file","49.html.vue"]]);export{d as default};

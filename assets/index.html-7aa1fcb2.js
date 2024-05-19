@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-5f08fd9c","path":"/zh/ClientFW/Pages/BootStrap5/","title":"BootStrap5开发文档","lang":"zh-CN","frontmatter":{},"headers":[],"git":{},"readingTime":{"minutes":0.02,"words":5},"filePathRelative":"zh/ClientFW/Pages/BootStrap5/README.md"}');export{t as data};

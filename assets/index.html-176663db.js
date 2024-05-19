@@ -1,0 +1,1 @@
+import{_ as t}from"./plugin-vue_export-helper-c27b6911.js";import{o as a,c as o,a as e,b as r}from"./app-a1fbcbb6.js";const c={},n=e("h1",{id:"yum",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#yum","aria-hidden":"true"},"#"),r(" yum")],-1),s=[n];function _(d,i){return a(),o("div",null,s)}const l=t(c,[["render",_],["__file","index.html.vue"]]);export{l as default};

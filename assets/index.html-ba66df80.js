@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-394e7cb0","path":"/zh/PMTools/Pages/RPMTools/Pages/yum/","title":"yum","lang":"zh-CN","frontmatter":{},"headers":[],"git":{},"readingTime":{"minutes":0,"words":1},"filePathRelative":"zh/PMTools/Pages/RPMTools/Pages/yum/README.md"}');export{e as data};

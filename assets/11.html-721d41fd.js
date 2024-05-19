@@ -1,0 +1,7 @@
+import{_ as i}from"./plugin-vue_export-helper-c27b6911.js";import{o as l,c as e,e as a}from"./app-a1fbcbb6.js";const n={},s=a(`<h2 id="作业" tabindex="-1"><a class="header-anchor" href="#作业" aria-hidden="true">#</a> 作业</h2><ul><li><p>玩家通过键盘录入 w,s,a,d控制小人向不同方向移动,其中w代表向上移动,s代表向 下移动,a代表向左移动,d 代表向右移动,当小人移动到出口位置,玩家胜利</p></li><li><p>思路:</p></li><li><p>1.定义二维数组存放地图</p></li></ul><div class="language-c line-numbers-mode" data-ext="c"><pre class="language-c"><code>     ######
+     <span class="token macro property"><span class="token directive-hash">#</span><span class="token expression">O #</span></span>
+     # ## #
+     #  # #
+     ##   #
+     ######
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul><li>2.规定地图的方向<br><img src="https://img-blog.csdnimg.cn/img_convert/7331a7700b09543cef73fa0bbddc3c16.png" alt="" loading="lazy"></li><li>3.编写程序控制方向</li></ul><ul><li>当输入w或者W, 小人向上移动. x-1</li><li>当输入s 或者S, 小人向下. x+1</li><li>当输入a或者A, 小人向左. y-1</li><li>当输入d或者D, 小人向右. y+1</li></ul><ul><li>4.移动小人</li></ul><ul><li>用变量记录小人当前的位置 <ul><li>1)如果小人将要移动的位置是墙,则无法移动</li><li>2)如果小人将要移动的位置是路,则可以移动</li></ul></li></ul><ul><li>5.判断是否走出迷宫</li></ul><h2 id="" tabindex="-1"><a class="header-anchor" href="#" aria-hidden="true">#</a></h2>`,9),c=[s];function d(r,t){return l(),e("div",null,c)}const p=i(n,[["render",d],["__file","11.html.vue"]]);export{p as default};

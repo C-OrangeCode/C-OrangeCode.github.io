@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-3c00cabb","path":"/zh/ProjectManagement/","title":"项目管理","lang":"zh-CN","frontmatter":{},"headers":[],"git":{},"readingTime":{"minutes":0.01,"words":4},"filePathRelative":"zh/ProjectManagement/README.md"}');export{e as data};

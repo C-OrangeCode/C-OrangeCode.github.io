@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-3a82d024","path":"/zh/Client/Pages/es6/","title":"Es6","lang":"en-US","frontmatter":{"title":"Es6","article":false,"feed":false,"sitemap":false},"headers":[],"git":{},"readingTime":{"minutes":0,"words":1},"filePathRelative":null}');export{e as data};

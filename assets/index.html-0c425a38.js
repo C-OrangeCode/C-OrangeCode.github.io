@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-78945227","path":"/zh/Application/","title":"软件大全","lang":"zh-CN","frontmatter":{},"headers":[],"git":{},"readingTime":{"minutes":0.01,"words":4},"filePathRelative":"zh/Application/README.md"}');export{t as data};
